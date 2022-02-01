@@ -1,4 +1,4 @@
-# brownie_fundme
+# Brownie_fundme
 Learning Solidity [With Free Bootcamp] [Youtube Link](https://www.youtube.com/watch?v=M576WGiDBdQ&amp;t=21666s)
 
 The code doesnt follow with the tutorial completely but has few minitor changes in it.
