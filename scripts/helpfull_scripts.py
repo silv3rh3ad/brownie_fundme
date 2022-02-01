@@ -1,5 +1,3 @@
-from decimal import Decimal
-from unicodedata import decimal
 from brownie import network, accounts, config, MockV3Aggregator
 from web3 import Web3
 

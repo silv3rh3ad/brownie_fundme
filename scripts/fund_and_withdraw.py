@@ -1,5 +1,3 @@
-from msilib.schema import Error
-from black import err
 from brownie import FundMe
 from scripts.helpfull_scripts import get_account
 
@@ -8,7 +6,7 @@ def fund():
     fund_me = FundMe[-1]
     print(f"[+] Accessing the Deployed Contract: {str(fund_me)}")
     account = get_account()
-    entrance_fee = fund_me.getEntranceFee()
+    entrance_fee = fund_me.getEntranceFee() + 100
     print(f"[.] The Current entry fee is {entrance_fee}")
     try:
         print("[+] Funding ...")
